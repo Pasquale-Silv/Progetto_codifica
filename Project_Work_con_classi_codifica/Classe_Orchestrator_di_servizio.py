@@ -4,7 +4,7 @@ from UtenteMittente_e_Destinatario import UtenteDestinatario, UtenteMittente
 from datetime import datetime
 
 mittente1 = UtenteMittente('Pasquale', 'Silvestre', 23, 'Pasquale@live.it')
-destinatario1 = UtenteDestinatario('Bryan', 'La Monica', 24, 'Bryan_La_Monica#live.com')
+destinatario1 = UtenteDestinatario('Bryan', 'La Monica', 24, 'Bryan_La_Monica@live.com')
 
 messaggio_privato1 = MessaggioPrivato('Documenti', 'Hai comprato i fuochi d\'artificio per stasera?'
                                       , mittente1, destinatario1, datetime.now())
